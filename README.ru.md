@@ -46,6 +46,6 @@ python train.py --config configs/default.yaml
 
 Если RLCore сэкономил тебе день отладки — ⭐ на репозитории помогает проекту быть заметнее.
 
-## 📄 Лицензия
+## Лицензия
 
 MIT © 2026 himsson. Подробности в [LICENSE](LICENSE).
