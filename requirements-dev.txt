@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8.0
+matplotlib>=3.7
+tensorboard>=2.15

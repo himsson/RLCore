@@ -1,0 +1,37 @@
+env: gridworld
+env_kwargs:
+  size: 8
+  n_traps: 5
+algo: random
+algo_kwargs: {}
+
+num_envs: 8
+async_envs: false
+autoreset_mode: same-step
+max_episode_steps: 200
+frame_stack: 0
+
+norm_obs: false
+norm_reward: false
+gamma: 0.99
+
+total_steps: 200000
+seed: 0
+device: auto
+torch_threads: 0
+deterministic: false
+
+log_interval: 4000
+log_window: 100
+csv: false
+tensorboard: false
+
+eval_interval: 20000
+eval_episodes: 20
+eval_envs: 4
+
+save_interval: 50000
+keep_best: true
+
+run_dir: runs
+run_name: null

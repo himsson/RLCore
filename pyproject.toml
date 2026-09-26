@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlcore"
+version = "0.1.0"
+description = "Каркас для обучения с подкреплением: контракты, буферы, вектор-среды, цикл обучения"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "himsson" }]
+maintainers = [{ name = "himsson" }]
+keywords = ["reinforcement-learning", "rl", "pytorch"]
+dependencies = ["numpy>=1.24", "pyyaml>=6.0", "torch>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "matplotlib>=3.7", "tensorboard>=2.15"]
+
+[tool.setuptools]
+packages = ["core", "envs", "algos", "nets"]
+
+[tool.ruff]
+line-length = 100

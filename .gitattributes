@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+README.md export-ignore
+README.ru.md export-ignore
+LICENSE export-ignore
+requirements.txt export-ignore
+requirements-dev.txt export-ignore
+pyproject.toml export-ignore
+pytest.ini export-ignore
+docs export-ignore
+tests export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
